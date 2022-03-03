@@ -252,6 +252,8 @@ public class OosAboutPreference extends BasePreferenceController implements View
                     return listMemory[i].replace("Hardware\t: ","").replace("Qualcomm Technologies, Inc ","");
                 else if (listMemory[i].contains("model name"))
                     return listMemory[i].replace("model name\t: ","");
+                else if (listMemory[i].contains("Hardware"))
+                    return listMemory[i].replace("Hardware\t: ","");
             }
         }
         catch (IOException e) {
