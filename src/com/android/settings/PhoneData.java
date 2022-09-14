@@ -256,9 +256,9 @@ public final class PhoneData {
 			"1080x2400, 6.67 inches",
 			"108MP + 8MP + 5MP + 2MP, 16MP"
 		));
-		//sakura
+		//juice
 		data.add(new AboutPhoneData(29,
-			"sakura",
+			"juice",
 			"8 x 2.0GHz",
 			"Snapdragon 625",
 			"4000",
@@ -353,6 +353,33 @@ public final class PhoneData {
 			"4000",
 			"1080 x 2340, 6.3 inches",
 			"48MP + 8MP + 2MP + 2MP"
+		));
+		//juice
+		data.add(new AboutPhoneData(40,
+			"juice",
+			"2 x 2.0 GHz, 6 x 1.8 GHz",
+			"Snapdragon 662",
+			"6000",
+			"1080 x 2340, 6.53 inches",
+			"48MP + 2MP + 2MP, 8MP"
+		));
+		//citrus
+		data.add(new AboutPhoneData(41,
+			"citrus",
+			"2 x 2.0 GHz, 6 x 1.8 GHz",
+			"Snapdragon 662",
+			"6000",
+			"1080 x 2340, 6.53 inches",
+			"48MP + 2MP + 2MP, 8MP"
+		));
+		//lime
+		data.add(new AboutPhoneData(42,
+			"lime",
+			"2 x 2.0 GHz, 6 x 1.8 GHz",
+			"Snapdragon 662",
+			"6000",
+			"1080 x 2340, 6.53 inches",
+			"48MP + 2MP + 2MP, 8MP"
 		));
 
 }
