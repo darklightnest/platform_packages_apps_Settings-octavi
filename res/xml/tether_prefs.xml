@@ -55,7 +55,7 @@
         android:selectable="false"
         settings:searchable="false"/>
     
-    <com.android.settings.octavi.preference.SystemSettingSwitchPreference 
+    <com.octavi.lab.preferences.SystemSettingSwitchPreference
         android:key="tethering_allow_vpn_upstreams"
         android:title="@string/tethering_allow_vpn_upstreams_title"
         android:summary="@string/tethering_allow_vpn_upstreams_summary"
